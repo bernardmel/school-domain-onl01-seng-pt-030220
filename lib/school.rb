@@ -1,9 +1,11 @@
 # code here!
 class School
 
-  def school=(model)
-    @school = model
+  def initialize(school_name)
+    @school_name = school_name
+    @roster = {}
   end
+  
 
 
 
